@@ -1,0 +1,91 @@
+{
+  "model_type": "LogisticRegression",
+  "trained_at": "2026-02-09T15:41:47.054609",
+  "accuracy": 0.5239887111947319,
+  "log_loss": 0.9687319598331516,
+  "train_size": 8501,
+  "test_size": 2126,
+  "feature_count": 28,
+  "feature_columns": [
+    "feat_home_form_points",
+    "feat_home_form_goals_scored",
+    "feat_home_form_goals_conceded",
+    "feat_home_form_win_rate",
+    "feat_home_form_shots",
+    "feat_home_form_shots_target",
+    "feat_home_form_corners",
+    "feat_away_form_points",
+    "feat_away_form_goals_scored",
+    "feat_away_form_goals_conceded",
+    "feat_away_form_win_rate",
+    "feat_away_form_shots",
+    "feat_away_form_shots_target",
+    "feat_away_form_corners",
+    "feat_h2h_home_wins",
+    "feat_h2h_draws",
+    "feat_h2h_away_wins",
+    "feat_h2h_home_goals_avg",
+    "feat_home_attack_strength",
+    "feat_home_defense_strength",
+    "feat_away_attack_strength",
+    "feat_away_defense_strength",
+    "feat_home_league_position",
+    "feat_away_league_position",
+    "feat_implied_prob_home",
+    "feat_implied_prob_draw",
+    "feat_implied_prob_away",
+    "feat_odds_favorite"
+  ],
+  "feature_importance": {},
+  "parameters": {},
+  "confusion_matrix": [
+    [
+      413,
+      7,
+      279
+    ],
+    [
+      187,
+      9,
+      374
+    ],
+    [
+      159,
+      6,
+      692
+    ]
+  ],
+  "classification_report": {
+    "A": {
+      "precision": 0.544137022397892,
+      "recall": 0.5908440629470673,
+      "f1-score": 0.5665294924554184,
+      "support": 699.0
+    },
+    "D": {
+      "precision": 0.4090909090909091,
+      "recall": 0.015789473684210527,
+      "f1-score": 0.030405405405405407,
+      "support": 570.0
+    },
+    "H": {
+      "precision": 0.5144981412639406,
+      "recall": 0.8074679113185531,
+      "f1-score": 0.628519527702089,
+      "support": 857.0
+    },
+    "accuracy": 0.5239887111947319,
+    "macro avg": {
+      "precision": 0.48924202425091384,
+      "recall": 0.47136714931661033,
+      "f1-score": 0.4084848085209709,
+      "support": 2126.0
+    },
+    "weighted avg": {
+      "precision": 0.4959823630767365,
+      "recall": 0.5239887111947319,
+      "f1-score": 0.4477781898156673,
+      "support": 2126.0
+    }
+  }
+}
